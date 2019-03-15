@@ -1,33 +1,44 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Quicksand', sans-serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+a {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: 12px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main h1 {
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.main h4 {
+  padding-bottom: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.news_subtitle span {
+  text-transform: none;
+  font-weight: 400;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.news_text {
+  margin-left: 15px;
+}
+
+.news_box {
+  background: #f1f1;
+  padding-bottom: 2rem;
+  border-radius: 5px;
+  box-shadow: -1px 2px 34px -13px rgba(0, 0, 0, 0.75);
+  text-align: left;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: 220px;
 }
