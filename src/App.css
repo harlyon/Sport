@@ -18,23 +18,24 @@ a {
   padding-bottom: 30px;
 }
 
-.news_subtitle span {
+.subtitle span {
   text-transform: none;
   font-weight: 400;
   font-size: 0.8rem;
   letter-spacing: 1px;
 }
 
-.news_text {
+.text {
   margin-left: 15px;
 }
 
-.news_box {
-  background: #f1f1;
-  padding-bottom: 2rem;
-  border-radius: 5px;
+.box {
+  background: #fff;
+  padding: 2rem;
+  /* border-radius: 5px; */
+  border: 1px solid #000;
   box-shadow: -1px 2px 34px -13px rgba(0, 0, 0, 0.75);
-  text-align: left;
+  text-align: center;
   overflow: hidden;
 }
 
