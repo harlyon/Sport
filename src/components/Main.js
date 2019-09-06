@@ -18,7 +18,6 @@ class Main extends Component {
     axios.get('https://www.thesportsdb.com/api/v1/json/1/all_leagues.php')
       .then(res => {
         this.setState({ sportsList: res.data.leagues });
-        // console.log(res.data.leagues);
     })
   }
   render() {
